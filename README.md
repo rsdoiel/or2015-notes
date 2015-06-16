@@ -3,7 +3,7 @@
 
 ## Day 1
 
-### Fedora 4 Workshop
+### Fedora 4 Workshop Morning
 
 + Morning
     + Introductions
@@ -52,11 +52,11 @@
         + External components  (consume/act off messages from repostiory)
             + examples include indexing, Solr integration, Elastric Search, etc.
             + Camel is an implementation of adding a listener that then triggers process desired
-        + External - Tripplestore
-            + Any triple store (SPARCL update supported tripple store)
+        + External - Triplestore
+            + Any triple store (SPARCL update supported triple store)
                 + Fuseki/Sesame have been tested
-                + Tripple store will be how the SPARCL interface for querying
-             + Fedora stores tripples but is NOT a tripplestore itself, tripple store provides query layer
+                + Triple store will be how the SPARCL interface for querying
+             + Fedora stores triples but is NOT a triplestore itself, triple store provides query layer
         + External - Audit Service
     + Metrics (see wiki performance metrics for version 4)
         + uploaded 1 TB file via REST API
@@ -159,7 +159,11 @@
     + Fedora-based "migration-utils"
     + Hydra-based "fedora-migrate" (ruby gem)
 
-  
+
+## Fedora Workshop Afternoon
+
+
+
 ## Background Notes
 
 + Best practices is do not expose Fedora 4 URL (future proof for migrations) but through a resolver service
@@ -168,4 +172,6 @@
 + [Vagrant](http://docs.vagrantup.com/v2/)
 + [Introduction to RDF](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Tutorial/Introduction_to_RDF) at Mozilla
 + [Intro to Linked Data](http://linkeddata.org/guides-and-tutorials) also called LDP, Linked Data Platform
-+ Tripples --> |Subject (noun)| Predicate (verb) | Object (noun) |
++ Triples --> |Subject (noun)| Predicate (verb) | Object (noun) |
++ [Apache Camel](http://camel.apache.org/)
++ [Fuseki](http://jena.apache.org/documentation/fuseki2/) - a triplestore

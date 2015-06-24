@@ -10,4 +10,6 @@
 
 + [Integrate Fedora with Everything](https://www.ats.amherst.edu/~acoburn/integration/#/)
 
+## Workshops
 
++ [Introduction to the ORCID APIs](http://www.slideshare.net/ORCIDSlides/orcid-api-workshop-or2015)
